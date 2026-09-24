@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b4aa2">
+  <title>Lukôlô A1 — Audios</title>
+  <style>
+    :root{--blue:#0b4aa2;--blue2:#1677ff;--ink:#16324f;--muted:#63758a;--bg:#f5f9ff;--card:#fff;--line:#dbe8f7}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradient(180deg,#eef6ff 0,#f9fbff 40%,#fff 100%);color:var(--ink)}
+    .wrap{max-width:860px;margin:auto;padding:24px 18px 56px}
+    .hero{background:linear-gradient(135deg,var(--blue),var(--blue2));color:#fff;border-radius:26px;padding:28px 26px;box-shadow:0 14px 34px rgba(11,74,162,.18)}
+    .brand{font-size:2.1rem;font-weight:800;letter-spacing:-.03em;margin:0}
+    .level{display:inline-block;margin-top:10px;padding:6px 11px;border:1px solid rgba(255,255,255,.35);border-radius:999px;font-weight:700}
+    .tagline{margin:14px 0 0;opacity:.96;font-size:1.05rem}
+    h2{margin:30px 0 8px;font-size:1.45rem}
+    .sub{color:var(--muted);margin:0 0 18px}
+    .list{display:grid;gap:14px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:0 8px 22px rgba(28,73,120,.06)}
+    .top{display:flex;gap:14px;align-items:flex-start}
+    .num{min-width:54px;height:54px;border-radius:16px;background:#e8f2ff;color:var(--blue);display:flex;align-items:center;justify-content:center;font-weight:800}
+    .title{font-weight:800;font-size:1.08rem;margin:2px 0 4px}
+    .desc{color:var(--muted);margin:0 0 14px;line-height:1.45}
+    audio{width:100%;height:44px}
+    .code{font-size:.82rem;color:#718096;margin-top:10px}
+    .note{margin-top:24px;padding:15px 17px;border-radius:16px;background:#eef6ff;border:1px solid #d7e9ff;color:#365675;font-size:.94rem;line-height:1.5}
+    footer{margin-top:34px;text-align:center;color:#7a8da3;font-size:.9rem}
+    @media(max-width:560px){.hero{padding:23px 20px;border-radius:22px}.brand{font-size:1.8rem}.wrap{padding:16px 12px 40px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1 class="brand">Lukôlô</h1>
+      <span class="level">Français A1 · Audios</span>
+      <p class="tagline">Apprenez avec ceux qui vivent la langue.</p>
+    </section>
+
+    <h2>Lukôlô 1 · Premiers contacts</h2>
+    <p class="sub">Choisissez l’audio indiqué dans votre livre.</p>
+
+    <section class="list">
+      <article class="card">
+        <div class="top">
+          <div class="num">Intro</div>
+          <div>
+            <div class="title">Bienvenue dans Lukôlô</div>
+            <p class="desc">Pearl vous accompagne au début de cette première séquence.</p>
+          </div>
+        </div>
+        <audio controls preload="none" src="audio/introduction.mp3">Votre navigateur ne prend pas en charge le lecteur audio.</audio>
+        <div class="code">A1-L01-A01</div>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="num">01</div>
+          <div>
+            <div class="title">Audio 1 · Bonjour !</div>
+            <p class="desc">Premier dialogue : faire connaissance et répondre à des questions simples.</p>
+          </div>
+        </div>
+        <audio controls preload="none" src="audio/audio-1.mp3">Votre navigateur ne prend pas en charge le lecteur audio.</audio>
+        <div class="code">A1-L01-E01</div>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <div class="num">02</div>
+          <div>
+            <div class="title">Audio 2 · Je me présente</div>
+            <p class="desc">Paul se présente avec un débit clair et naturel adapté au début du niveau A1.</p>
+          </div>
+        </div>
+        <audio controls preload="none" src="audio/audio-2.mp3">Votre navigateur ne prend pas en charge le lecteur audio.</audio>
+        <div class="code">A1-L01-E02</div>
+      </article>
+    </section>
+
+    <div class="note">Le même QR du livre peut rester valable : cette page sera complétée au fur et à mesure avec Audio 3, Audio 4, Audio 5, etc.</div>
+    <footer>© Lukôlô · Français A1</footer>
+  </main>
+</body>
+</html>
